@@ -29,3 +29,9 @@ docker-compose up -d
 访问页面
 
 http://localhost:5000
+
+## 补充命令
+docker compose up -d 后台启动镜像
+docker compose ps 查看当前正在运行的内容
+docker compose stop 停止当前服务
+docker compose down 关闭所有服务并删除卷内容
